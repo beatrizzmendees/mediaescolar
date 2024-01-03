@@ -1,0 +1,10 @@
+N1= int(input("Qual é a primeira nota: "))
+N2= int(input("Qual é a segunda nota: "))
+N3= int(input("Qual é a terceira nota: "))
+
+media = N1+N2+N3/3
+
+if media > 6:
+    print("Você está aprovado, sua media foi: ", media)
+else:
+    print("Você foi reprovado, sua media foi: ", media)
